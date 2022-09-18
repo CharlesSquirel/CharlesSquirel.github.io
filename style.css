@@ -117,20 +117,16 @@
 }
 
 @media screen and (max-width: 600px) {
-
     .container {
         min-height: 667px;
     }
     
-    .product_img-desktop {
-        display: none;
-    }
-    
-    .product_img-mobile {
+    .product_img {
         display: block;
         height: 240px;
         width: 343px;
         border-radius: 10px 10px 0px 0px;
+        object-fit: cover;
     }
     
     .product {
